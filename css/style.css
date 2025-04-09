@@ -12,17 +12,18 @@
 }
 
 nav {
-  background-color: #c1f1f5;
+  background-color: #eb8144bd;
 }
 
 header,
 footer {
-  background-color: rgb(124, 162, 180);
+  background-color: rgba(104, 52, 4, 0.925);
   text-align: center;
+  color: white;
 }
 
 .titulo {
-  background-color: rgb(66, 124, 124);
+  background-color: rgba(104, 52, 4, 0.925);
   text-align: center;
   font-family: "Protest Riot", sans-serif;
   font-size: 25px;
@@ -38,7 +39,6 @@ footer {
   /* Alinha os itens ao centro */
   padding: 5px 0;
   /* Espaçamento vertical */
-
 }
 
 .menu li {
@@ -48,14 +48,14 @@ footer {
 
 .menu a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   padding: 10px 15px;
   transition: 0.3s ease;
 }
 
 .menu a:hover {
-  background-color: rgb(66, 124, 124);
+  background-color: rgba(141, 74, 11, 0.884);
   color: #ffffff;
 }
 
@@ -64,11 +64,13 @@ footer {
   margin: auto;
 }
 
-p{
+p {
   font-size: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
 }
 
-a{
+a {
   font-size: 30px;
   text-decoration: none;
 }
@@ -78,20 +80,35 @@ a:hover {
 }
 
 body {
-  background-color: #a4b4c7;
+  background-color: #b4967e;
 }
 
-#minha_tabela{
+#minha_tabela {
   width: 400px;
-  text-align: center;
+  text-align: left;
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
   padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
-#img_tabela{
-  width: 200px;   /* Define a largura da imagem para 300px */
+#img_tabela {
+  width: 200px;
+  /* Define a largura da imagem para 200px */
   height: 200px;
+  border-radius: 25px;
 }
 
+#minha_tabela tr:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+form input:hover {
+  background-color: #94ced3;
+}
+
+form textarea:hover {
+  background-color: #94ced3;
+}

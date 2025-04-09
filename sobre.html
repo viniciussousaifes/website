@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Sobre</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="index.html">
 </head>
 
 <body>
-
     <div>
         <header class="titulo">
             <h1>Livros e Café</h1>
@@ -23,27 +22,21 @@
             </ul>
         </nav>
 
-        <section>
-            <h2>Produtos servidos:</h2>
-            <table id="minha_tabela">
-                <tr>
-                    <th>Produto</th>
-                    <th>Descrição</th>
-                    <th>Preço</th>
-                </tr>
-                <tr>
-                    <td><img id="img_tabela" src="img/cafe_trufado.jpg" alt="cafe_trufado"></td>
-                    <td>Café Trufado</td>
-                    <td>10,00</td>
-                </tr>
-                <tr>
-                    <td><img id="img_tabela" src="img/cafe_caramelo.jpg" alt=""></td>
-                    <td>Café caramelo</td>
-                    <td>20,00</td>
-                </tr>
-            </table>
-        </section>
-
+        <p>Entre em contato com a cafeteria solicitando o orçamento do que deseja!</p>
+        <fieldset>
+            <legend>Orçamento</legend>
+            <form>
+                <label for="fname" id="fname">Nome:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Digite seu nome!">
+                <p></p>
+                <label for="ffone" id="ffone">Telefone:</label><br>
+                <input type="text" id="ffone" name="ftelefone" min="11" max="13" placeholder="Digite seu telefone!">
+                <p></p>
+                <label for="fpreco" id="fpreco">Pedido:</label><br>
+                <textarea name="" id="fpreco" cols="30" rows="10" placeholder="Digite aqui seu pedido!"></textarea>
+                <input type="submit">
+            </form>
+        </fieldset>
 
         <footer>
             <p>
@@ -55,7 +48,6 @@
         </footer>
 
     </div>
-
 </body>
 
 </html>
